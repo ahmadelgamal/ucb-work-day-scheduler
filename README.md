@@ -2,6 +2,10 @@
 
 **Work Day Scheduler** is a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
+## Starter Code
+
+This app is the weekly challenge 5 at the University of California, Berkeley (UCB), extension, online blended full-stack web-development course. The following starter code was provided by UCB extension: https://github.com/coding-boot-camp/super-disco.
+
 ## URL of Deployed Application
 
 https://ahmadelgamal.github.io/ucb-work-day-scheduler/
@@ -43,6 +47,8 @@ https://github.com/ahmadelgamal/ucb-work-day-scheduler
 - HTML5
 - CSS3
 - JavaScript (ES6)
+- jQuery
+- jQuery UI
 - Moment.js
 
 ## Screenshots

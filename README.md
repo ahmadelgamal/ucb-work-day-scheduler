@@ -46,9 +46,9 @@ https://github.com/ahmadelgamal/ucb-work-day-scheduler
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript
 - jQuery
-- jQuery UI
 - Moment.js
 
-## Screenshots
+## GIF Animation
+![Gif Animation](./assets/animations/animation.gif)

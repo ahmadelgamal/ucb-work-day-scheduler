@@ -2,6 +2,7 @@ $(document).ready(function () {
   // set today's date in header
   $('#currentDay').text(moment().format('dddd, MMMM Do'))
 
+  //STARTS FOR LOOP
   // get data from localStorage, if exists
   for (var i = 9; i < 18; i++) {
     if (i < 12) {
@@ -28,6 +29,7 @@ $(document).ready(function () {
     else if (i === currentHour) $('#' + id).addClass('present');
     else $('#' + id).addClass('future');
   }
+  // ENDS FOR LOOP
 
   // collect user input in description field and corresponding hour
   $('.saveBtn').on('click', function () {

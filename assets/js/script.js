@@ -26,8 +26,8 @@ $(document).ready(function () {
     // set get current hour to set background color of hour rows
     var currentHour = moment().format('HH');
     if (i < currentHour) $('#' + id).addClass('past');
-    else if (i === currentHour) $('#' + id).addClass('present');
-    else $('#' + id).addClass('future');
+    else if (i > currentHour) $('#' + id).addClass('future');
+    else $('#' + id).addClass('present');
   }
   // ENDS FOR LOOP
 
